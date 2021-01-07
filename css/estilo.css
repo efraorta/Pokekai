@@ -9,6 +9,14 @@ header {
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 22px; }
 
+.lead {
+  font-size: 1rem;
+  text-align: center;
+  color: #686868;
+  font-weight: 500;
+  letter-spacing: 1.54px;
+  line-height: 2; }
+
 .container-fluid {
   width: 100%;
   padding-right: 0px;
@@ -19,8 +27,8 @@ header {
 .col-md-7 {
   flex: 0 0 58.333333%;
   max-width: 58.333333%;
-  padding-right: 12px;
-  padding-left: 34px; }
+  padding-right: 62px;
+  padding-left: 70px; }
 
 /*------------BotonesIndex---------*/
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
@@ -63,7 +71,21 @@ a {
     color: white; }
     a:hover.active {
       background: none;
-      color: white; }
+      color: white;
+      text-decoration: none; }
+
+.btn-primary:not(:disabled):not(.disabled):active {
+  background-color: #ff8d1e;
+  outline: none; }
+
+a:hover {
+  font-size: 24px; }
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  font-size: 24px; }
+
+.btn-lg {
+  font-size: 24; }
 
 .navbar-brand {
   display: flex;
@@ -92,6 +114,14 @@ a {
       padding-left: 1.5rem; }
       .navbar-brand .center-block .navbar-expand-lg .navbar-nav .nav-link .navbar-dark .navbar-brand {
         color: white; }
+
+.main-ubications__boxitem {
+  font-size: 24px;
+  color: red; }
+
+.main-ubications__boxitem {
+  font-size: 24px;
+  padding: 2px 130px 40px 0px; }
 
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
   cursor: pointer;
@@ -168,7 +198,7 @@ a {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff; }
+  background-color: #ff8d1e; }
   .btn-primary:not(:disabled):not(.disabled) {
     cursor: pointer;
     border: none; }
@@ -345,7 +375,7 @@ footer.light .footer-copyright {
   color: #ff8d1e; }
 
 .widget li a:hover {
-  color: #4b92dc; }
+  color: #ff8d1e; }
 
 .widget-title {
   margin-bottom: 20px; }
@@ -411,7 +441,7 @@ ul.social-footer2 li a {
   color: #fff; }
 
 .btn:hover, .btn:focus, .btn.active {
-  background: #4b92dc;
+  background: #ff8d1e;
   color: #fff;
   -webkit-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
